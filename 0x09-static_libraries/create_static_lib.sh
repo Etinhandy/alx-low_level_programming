@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -c -wall -werror -wextra *.c
+gcc -c *.c
 ar -rc liball.a *.o
 ranlib liball.a
